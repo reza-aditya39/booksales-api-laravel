@@ -17,6 +17,7 @@ class BookSeeder extends Seeder
             'description'=>'Sebuah novel fiksi-otobiografi misteri yang mengangkat kisah nyata sang penulis saat menyadari kemampuan indigo-nya sejak kecil',
             'price'=>35000,
             'stock'=>21,
+            'cover_photo'=>'Danur.webp',
             'genre_id'=>3,
             'author_id'=>2
             ],
@@ -25,6 +26,7 @@ class BookSeeder extends Seeder
             'description'=>'Menceritakan tentang Raib, seorang remaja perempuan berusia 15 tahun yang memiliki kemampuan ajaib bisa menghilang hanya dengan menutup wajahnya menggunakan kedua telapak tangan',
             'price'=>114000,
             'stock'=>78,
+            'cover_photo'=>'Bumi.webp',
             'genre_id'=>1,
             'author_id'=>1
             ],
@@ -33,6 +35,7 @@ class BookSeeder extends Seeder
             'description'=>'Berlatar belakang masa depan (tahun 2042) pasca-bencana alam dahsyat, novel ini menceritakan tentang persahabatan, perpisahan, dan cinta antara Lail dan Esok.',
             'price'=>109000,
             'stock'=>56,
+            'cover_photo'=>'Hujan.webp',
             'genre_id'=>2,
             'author_id'=>1
             ],
@@ -41,6 +44,7 @@ class BookSeeder extends Seeder
             'description'=>'Buku ini menggabungkan sains dasar, astronomi, sejarah peradaban, dan filsafat untuk menjelaskan bagaimana materi kosmik membentuk kehidupan di Bumi dan bagaimana manusia berusaha memahami alam semesta.',
             'price'=>93750,
             'stock'=>121,
+            'cover_photo'=>'Cosmos.webp',
             'genre_id'=>5,
             'author_id'=>4
             ],
@@ -49,6 +53,7 @@ class BookSeeder extends Seeder
             'description'=>'Biografi resmi yang disusun berdasarkan lebih dari 40 wawancara langsung dengan Steve Jobs selama dua tahun, serta wawancara dengan ratusan anggota keluarga',
             'price'=>81500,
             'stock'=>88,
+            'cover_photo'=>'Steve Jobs.webp',
             'genre_id'=>4,
             'author_id'=>'3'
             ]

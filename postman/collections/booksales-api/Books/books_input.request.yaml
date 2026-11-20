@@ -1,0 +1,43 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/books
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: title
+      value: Atomic Habits
+      description: ""
+      disabled: false
+    - type: text
+      key: description
+      value: Atomic Habits (2018) by James Clear is a bestselling self‑help book that teaches a four‑step framework—cue, craving, response, reward—for building good habits and breaking bad ones, emphasizing small “1% better” daily improvements.
+      description: ""
+      disabled: false
+    - type: text
+      key: price
+      value: "98000"
+      description: ""
+      disabled: false
+    - type: text
+      key: stock
+      value: "65"
+      description: ""
+      disabled: false
+    - type: file
+      key: cover_photo
+      src:
+        - OIP.jpeg
+      description: ""
+      disabled: false
+    - type: text
+      key: genre_id
+      value: "2"
+      description: ""
+      disabled: false
+    - type: text
+      key: author_id
+      value: "1"
+      description: ""
+      disabled: false
+order: 2000

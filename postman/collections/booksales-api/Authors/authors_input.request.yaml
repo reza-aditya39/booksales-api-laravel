@@ -1,0 +1,23 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/authors
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: name
+      value: Haidar Musyafa
+      description: ""
+      disabled: false
+    - type: file
+      key: cover_photo
+      src:
+        - download (2).webp
+      description: ""
+      disabled: false
+    - type: text
+      key: bio
+      value: "Haidar Musyafa terkenal sebagai penulis biografi sosok-sosok besar seperti K. H. Ahmad Dahlan, Buya Hamka, Ki Hadjar Dewantara, dan Hamengku Buwono IX. "
+      description: ""
+      disabled: false
+order: 2000
